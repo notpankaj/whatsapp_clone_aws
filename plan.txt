@@ -1,0 +1,7 @@
+?? AWS credentical
+id: 807954077262 
+username: developer.mspl@gmail.com
+password: developer@123
+
+
+amplify pull --appId d422kv1j63oa9 --envName staging
