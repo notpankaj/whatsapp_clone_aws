@@ -13,3 +13,11 @@ amplify pull --appId d422kv1j63oa9 --envName staging
 
 ### aws dependencieces
 npm i aws-amplify aws-amplify-react-native amazon-cognito-identity-js @react-native-community/netinfo @react-native-async-storage/async-storage 
+
+
+
+--> after creating or updating dataModel we have to take pull of backend in our code
+
+
+### amplify graphql
+amplify codegen add 
