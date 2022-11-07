@@ -14,7 +14,6 @@ const ChatListItem = ({ chat }) => {
     const fetchAuthUser = async () => {
       const authUser = await Auth.currentAuthenticatedUser();
       for (let u of chat?.users?.items) {
-        console.log(u?.user);
         if (authUser?.attributes?.sub !== u?.user?.id) {
           setUser(u?.user);
         }
